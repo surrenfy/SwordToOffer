@@ -1,6 +1,6 @@
 #include "universal.h"
 
-//´ó¼Ò¶¼ÖªµÀì³²¨ÄÇÆõÊýÁÐ£¬ÏÖÔÚÒªÇóÊäÈëÒ»¸öÕûÊýn£¬ÇëÄãÊä³öì³²¨ÄÇÆõÊýÁÐµÄµÚnÏî¡£
+//å¤§å®¶éƒ½çŸ¥é“æ–æ³¢é‚£å¥‘æ•°åˆ—ï¼ŒçŽ°åœ¨è¦æ±‚è¾“å…¥ä¸€ä¸ªæ•´æ•°nï¼Œè¯·ä½ è¾“å‡ºæ–æ³¢é‚£å¥‘æ•°åˆ—çš„ç¬¬né¡¹ã€‚
 
 class Solution {
 public:

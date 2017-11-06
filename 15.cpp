@@ -1,8 +1,8 @@
 #include "universal.h"
 
-//ÊäÈëÁ½¸öµ¥µ÷µÝÔöµÄÁ´±í£¬Êä³öÁ½¸öÁ´±íºÏ³ÉºóµÄÁ´±í£¬µ±È»ÎÒÃÇÐèÒªºÏ³ÉºóµÄÁ´±íÂú×ãµ¥µ÷²»¼õ¹æÔò¡£
+//è¾“å…¥ä¸¤ä¸ªå•è°ƒé€’å¢žçš„é“¾è¡¨ï¼Œè¾“å‡ºä¸¤ä¸ªé“¾è¡¨åˆæˆåŽçš„é“¾è¡¨ï¼Œå½“ç„¶æˆ‘ä»¬éœ€è¦åˆæˆåŽçš„é“¾è¡¨æ»¡è¶³å•è°ƒä¸å‡è§„åˆ™ã€‚
 
-//¼òµ¥µÄ¹é²¢ÅÅÐò£¬²»ÐèÒª×Ô¼ºÉêÇë½Úµã£¬ÓÃÒÑÓÐµÄ¾ÍÐÐ
+//ç®€å•çš„å½’å¹¶æŽ’åºï¼Œä¸éœ€è¦è‡ªå·±ç”³è¯·èŠ‚ç‚¹ï¼Œç”¨å·²æœ‰çš„å°±è¡Œ
 struct ListNode {
 	int val;
 	struct ListNode *next;

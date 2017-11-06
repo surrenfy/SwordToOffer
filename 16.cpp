@@ -1,6 +1,6 @@
 #include "universal.h"
 
-//ÊäÈëÁ½¿Ã¶þ²æÊ÷A£¬B£¬ÅÐ¶ÏBÊÇ²»ÊÇAµÄ×Ó½á¹¹¡££¨ps£ºÎÒÃÇÔ¼¶¨¿ÕÊ÷²»ÊÇÈÎÒâÒ»¸öÊ÷µÄ×Ó½á¹¹£©
+//è¾“å…¥ä¸¤æ£µäºŒå‰æ ‘Aï¼ŒBï¼Œåˆ¤æ–­Bæ˜¯ä¸æ˜¯Açš„å­ç»“æž„ã€‚ï¼ˆpsï¼šæˆ‘ä»¬çº¦å®šç©ºæ ‘ä¸æ˜¯ä»»æ„ä¸€ä¸ªæ ‘çš„å­ç»“æž„ï¼‰
 
 
 struct TreeNode {
@@ -23,7 +23,7 @@ public:
 	bool IsSametree(TreeNode* p, TreeNode* q)
 	{
 		if (!q)
-			return true; //×¢Òâ´Ë´¦
+			return true; //æ³¨æ„æ­¤å¤„
 		if (!p)
 			return false;
 		return (p->val == q->val && IsSametree(p->left, q->left) && IsSametree(p->right, q->right));

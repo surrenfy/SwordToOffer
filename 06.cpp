@@ -1,8 +1,8 @@
 #include "universal.h"
 #include <iostream>
-//��һ�������ʼ�����ɸ�Ԫ�ذᵽ�����ĩβ�����ǳ�֮Ϊ�������ת�� 
-//����һ���ǵݼ�����������һ����ת�������ת�������СԪ�ء� ��������{3,4,5,1,2}Ϊ{1,2,3,4,5}��һ����ת�����������СֵΪ1�� 
-//NOTE������������Ԫ�ض�����0���������СΪ0���뷵��0��
+//把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。 
+//输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。 
+//NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 
 class Solution {
 public:
@@ -10,7 +10,7 @@ public:
 		size_t size = rotateArray.size();
 		if (size == 0)
 			return 0;
-		else if (rotateArray[0] < rotateArray[size - 1]) // ���ﲻ��д�� <= {1,0,1}
+		else if (rotateArray[0] < rotateArray[size - 1]) // 这里不能写成 <= {1,0,1}
 			return rotateArray[0];
 		else return minNumberInRotateArray(rotateArray, 0, size - 1);
 	}
